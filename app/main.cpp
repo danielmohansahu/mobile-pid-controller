@@ -8,24 +8,24 @@
 #include "include/controller.h"
 
 int main() {
-  PIDController controller;
-  double desired, actual;
-  double kp = 0.5;
-  double ki = 0.1;
-  double kd = 0.2;
-  double dt = 0.01;
-  std::cout << "Enter the desired velocity: ";
-  std::cin >> desired;
+  // PIDController controller;
+  // double desired, actual;
+  // double kp = 0.5;
+  // double ki = 0.1;
+  // double kd = 0.2;
+  // double dt = 0.01;
+  // std::cout << "Enter the desired velocity: ";
+  // std::cin >> desired;
 
-  std::cout << "ENter the actual velocity: ";
-  std::cin >> actual;
+  // std::cout << "ENter the actual velocity: ";
+  // std::cin >> actual;
 
-  // call the setter function
-  controller.setK(kp, ki, kd);
-  controller.setT(dt);
+  // // call the setter function
+  // controller.setK(kp, ki, kd);
+  // controller.setT(dt);
 
-  // call the compute method
-  double new_output = controller.compute(desired, actual);
-  std::cout << "output of the PID controller= " << new_output << std::endl;
-  return 0;
+  // // call the compute method
+  // double new_output = controller.compute(desired, actual);
+  // std::cout << "output of the PID controller= " << new_output << std::endl;
+  // return 0;
 }
