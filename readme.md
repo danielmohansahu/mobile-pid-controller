@@ -1,6 +1,6 @@
 # PID Controller - C++ Project
-[![Build Status](https://travis-ci.org/rajesh1996/mobile-pid-controller.svg?branch=master)](https://travis-ci.org/github/rajesh1996/mobile-pid-controller)
-[![Coverage Status](https://coveralls.io/repos/github/rajesh1996/mobile-pid-controller/badge.svg?branch=master)](https://coveralls.io/github/rajesh1996/mobile-pid-controller?branch=master)
+[![Build Status](https://travis-ci.org/danielmohansahu/mobile-pid-controller.svg?branch=master)](https://travis-ci.org/danielmohansahu/mobile-pid-controller)
+[![Coverage Status](https://coveralls.io/repos/github/danielmohansahu/mobile-pid-controller/badge.svg?branch=master)](https://coveralls.io/github/danielmohansahu/mobile-pid-controller?branch=master)
 ---
 ## Authors
 - Part 1 : Daniel Sahu (Driver),Spencer Elyard (Navigator)
@@ -15,7 +15,7 @@ Simple starter C++ project with:
 
 ## Standard install via command-line
 ```
-git clone --recursive https://github.com/rajesh1996/mobile-pid-controller
+git clone --recursive https://github.com/danielmohansahu/mobile-pid-controller
 cd <path to repository>
 mkdir build
 cd build
@@ -42,7 +42,7 @@ In your Eclipse workspace directory (or create a new one), checkout the repo (an
 ```
 mkdir -p ~/workspace
 cd ~/workspace
-git clone --recursive https://github.com/rajesh1996/mobile-pid-controller
+git clone --recursive https://github.com/danielmohansahu/mobile-pid-controller
 ```
 
 In your work directory, use cmake to create an Eclipse project for an [out-of-source build] of mobile-pid-controller
